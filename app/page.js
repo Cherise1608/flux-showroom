@@ -257,19 +257,16 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="px-6 py-12 border-t border-slate-200">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div>
-            <div className="text-2xl font-bold mb-2 bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
-              Flux Adoption
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+            <span className="text-lg font-bold text-slate-950">Flux Adoption</span>
+            <div className="flex items-center gap-6">
+              <a href="https://www.linkedin.com/in/jesca-martaeng/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
+              <a href="https://github.com/flux-adoption" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>
+              <a href="mailto:hello@flux-adoption.io" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
             </div>
-            <p className="text-slate-500 text-sm">Logic-as-a-Service for the Agentic Era</p>
           </div>
-
-          <div className="flex gap-6">
-            <a href="#" className="text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>
-            <a href="#" className="text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
-            <a href="#" className="text-slate-500 hover:text-pink-500 transition-colors">Documentation</a>
-          </div>
+          <p className="text-center text-xs text-slate-400">&copy; 2026 Flux Adoption &mdash; AI Solution Specialist based in Copenhagen.</p>
         </div>
       </footer>
     </div>
