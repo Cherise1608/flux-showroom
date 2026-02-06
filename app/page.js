@@ -67,9 +67,14 @@ export default function Home() {
               <div className="p-6">
                 <p className="text-sm text-pink-500 font-medium mb-2">AI Agent &middot; K&oslash;benhavns Universitet</p>
                 <h3 className="text-xl font-bold text-slate-950 mb-2">Research Translator</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                <p className="text-slate-600 text-sm leading-relaxed mb-2">
                   83% reduktion i research-tid. Automatiseret workflow til komplekse forsker-briefings.
                 </p>
+                <div className="flex gap-4 text-sm mt-2 mb-4">
+                  <span className="text-pink-500 font-bold">83% tidsbesparelse</span>
+                  <span className="text-slate-300">|</span>
+                  <span className="text-pink-500 font-bold">102.000 kr. ROI</span>
+                </div>
                 <a href="https://cherise1608.github.io/research-translator/" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
                   Se Projektet &rarr;
                 </a>
@@ -104,6 +109,7 @@ export default function Home() {
                 <p className="text-slate-600 text-sm leading-relaxed">
                   Dette showroom er bygget, testet og deployet via autonome agent-teams p&aring; under 60 minutter.
                 </p>
+                <p className="text-sm text-slate-500 mt-4 italic">Du kigger p&aring; det nu.</p>
               </div>
             </div>
           </div>
@@ -194,72 +200,52 @@ export default function Home() {
       {/* Min Tilgang Section */}
       <section id="min-tilgang" className="px-6 py-24 bg-slate-50">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left Column — Text */}
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-pink-500 mb-4">Min Tilgang</p>
-              <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-6 leading-snug">
-                Den Logiske Bro
-              </h2>
+          <p className="text-sm font-semibold uppercase tracking-widest text-pink-500 mb-4">Min Tilgang</p>
+          <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-10 leading-snug">
+            Den Logiske Bro
+          </h2>
 
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
-                    <Database className="w-6 h-6 text-pink-500" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold mb-1 text-slate-950">Source of Truth</h3>
-                    <p className="text-slate-600">
-                      Forretningsregler versioneret i GitHub. Auditerbare og reproducerbare.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
-                    <Cpu className="w-6 h-6 text-pink-500" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold mb-1 text-slate-950">Logic Bridge</h3>
-                    <p className="text-slate-600">
-                      Agenter henter fakta i realtid. Modellen r&aelig;sonnerer &mdash; den opfinder ikke.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
-                    <LayoutDashboard className="w-6 h-6 text-pink-500" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold mb-1 text-slate-950">Interface</h3>
-                    <p className="text-slate-600">
-                      L&oslash;sningen m&oslash;der brugeren der, hvor arbejdet foreg&aring;r. Teams, Outlook eller web.
-                    </p>
-                  </div>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
+                <Database className="w-6 h-6 text-pink-500" />
               </div>
+              <h3 className="text-xl font-bold mb-2 text-slate-950">Source of Truth</h3>
+              <p className="text-slate-600">
+                Forretningsregler versioneret i GitHub. Auditerbare og reproducerbare.
+              </p>
             </div>
 
-            {/* Right Column — Profile Image */}
-            <div className="flex justify-center md:justify-end">
-              <img
-                src="/jesca-profile.jpg"
-                alt="Jesca — AI Solution Specialist"
-                className="w-full max-w-md rounded-2xl shadow-sm object-cover"
-              />
+            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
+                <Cpu className="w-6 h-6 text-pink-500" />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-slate-950">Logic Bridge</h3>
+              <p className="text-slate-600">
+                Agenter henter fakta i realtid. Modellen r&aelig;sonnerer &mdash; den opfinder ikke.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
+                <LayoutDashboard className="w-6 h-6 text-pink-500" />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-slate-950">Interface</h3>
+              <p className="text-slate-600">
+                L&oslash;sningen m&oslash;der brugeren der, hvor arbejdet foreg&aring;r. Teams, Outlook eller web.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Banner — Skal vi arbejde sammen? */}
-      <section className="px-6 py-20 bg-slate-50">
+      <section id="kontakt" className="px-6 py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-slate-950">
             Skal vi arbejde sammen?
           </h2>
-          <a href="mailto:hello@flux-adoption.io" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
+          <a href="mailto:jescacherisevia@gmail.com" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
             SIG HEJ
           </a>
         </div>
@@ -271,9 +257,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
             <span className="text-lg font-bold text-slate-950">Flux Adoption</span>
             <div className="flex items-center gap-6">
-              <a href="https://www.linkedin.com/in/jesca-martaeng/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/jmartaeng/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
               <a href="https://github.com/Cherise1608" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>
-              <a href="mailto:hello@flux-adoption.io" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
+              <a href="mailto:jescacherisevia@gmail.com" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
             </div>
           </div>
           <p className="text-center text-xs text-slate-400">&copy; 2026 Flux Adoption &mdash; AI Solution Specialist based in Copenhagen.</p>
