@@ -201,9 +201,12 @@ export default function Home() {
       <section id="min-tilgang" className="px-6 py-24 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <p className="text-sm font-semibold uppercase tracking-widest text-pink-500 mb-4">Min Tilgang</p>
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-10 leading-snug">
-            Den Logiske Bro
+          <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-4 leading-snug">
+            S&aring;dan bygger jeg AI-l&oslash;sninger
           </h2>
+          <p className="text-slate-600 mb-10 text-lg">
+            Min arkitektur adskiller forretningslogik fra AI-modellen. Resultatet er systemer, der aldrig g&aelig;tter.
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
