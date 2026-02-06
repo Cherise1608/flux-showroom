@@ -10,7 +10,7 @@ export default function Home() {
           <a href="#" className="text-xl font-bold text-slate-950">Flux Adoption</a>
           <div className="hidden md:flex items-center gap-8">
             <a href="#enterprise-impact" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Projekter</a>
-            <a href="#arkitektur" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Arkitektur</a>
+            <a href="#min-tilgang" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Min Tilgang</a>
             <a href="#about" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Om Mig</a>
             <a href="#kontakt" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Kontakt</a>
           </div>
@@ -29,9 +29,9 @@ export default function Home() {
             </h1>
 
             <p className="text-lg text-slate-600 leading-relaxed mb-8">
-              Jeg bygger bro mellem kompleks teknologi og de mennesker, der skal f&aring;
-              det til at fungere. Gennem deterministisk AI-arkitektur transformerer
-              jeg tunge manuelle processer til m&aring;lbare resultater.
+              Jeg forener kompleks teknologi med de mennesker, der skal bruge den.
+              Gennem deterministisk AI-arkitektur skaber jeg l&oslash;sninger, der virker
+              i virkeligheden &ndash; ikke kun i teorien.
             </p>
 
             <a href="#enterprise-impact" className="inline-block px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-semibold transition-colors">
@@ -58,52 +58,46 @@ export default function Home() {
             Udvalgte projekter fra AI-implementering til forretningsudvikling.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Card 1 — Research Translator */}
             <div className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.02] transition-all duration-200">
-              <div className="aspect-[4/3] bg-slate-100" />
+              <div className="aspect-[4/3] bg-slate-100 overflow-hidden">
+                <img src="/project-research.jpg" alt="Research Translator" className="w-full h-full object-cover" />
+              </div>
               <div className="p-6">
                 <p className="text-sm text-pink-500 font-medium mb-2">AI Agent &middot; K&oslash;benhavns Universitet</p>
                 <h3 className="text-xl font-bold text-slate-950 mb-2">Research Translator</h3>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4">
                   83% reduktion i research-tid. Automatiseret workflow til komplekse forsker-briefings.
                 </p>
-                <a href="/Businesscase-Research-Translator.pdf" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
-                  L&aelig;s Businesscase (PDF)
+                <a href="https://cherise1608.github.io/research-translator/" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
+                  Se Projektet &rarr;
                 </a>
               </div>
             </div>
 
-            {/* Card 2 — AI Faktura-validering */}
+            {/* Card 2 — EPDM Specialisten */}
             <div className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.02] transition-all duration-200">
-              <div className="aspect-[4/3] bg-slate-100" />
-              <div className="p-6">
-                <p className="text-sm text-pink-500 font-medium mb-2">Implementering &middot; Offentlig Forvaltning</p>
-                <h3 className="text-xl font-bold text-slate-950 mb-2">AI Faktura-validering</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">
-                  Digitalisering af leverand&oslash;r-bilag. Implementeret og i drift p&aring; kun 2 m&aring;neder.
-                </p>
+              <div className="aspect-[4/3] bg-slate-100 overflow-hidden">
+                <img src="/project-epdm.jpg" alt="EPDM Specialisten" className="w-full h-full object-cover" />
               </div>
-            </div>
-
-            {/* Card 3 — EPDM Specialisten */}
-            <div className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.02] transition-all duration-200">
-              <div className="aspect-[4/3] bg-slate-100" />
               <div className="p-6">
                 <p className="text-sm text-pink-500 font-medium mb-2">Forretningsudvikling &middot; Supply Chain</p>
                 <h3 className="text-xl font-bold text-slate-950 mb-2">EPDM Specialisten</h3>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4">
                   Fra tysk ingeni&oslash;rvidenskab til dansk h&aring;ndv&aelig;rk. Transformation af kompleks B2B til en skalerbar D2C-model.
                 </p>
-                <a href="/Projektbeskrivelse-EPDM.pdf" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
-                  Se Projektbeskrivelse (PDF)
+                <a href="https://epdm-specialisten.dk" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
+                  Bes&oslash;g Siden &rarr;
                 </a>
               </div>
             </div>
 
-            {/* Card 4 — Flux Showroom */}
+            {/* Card 3 — Flux Showroom */}
             <div className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.02] transition-all duration-200">
-              <div className="aspect-[4/3] bg-slate-100" />
+              <div className="aspect-[4/3] bg-slate-100 overflow-hidden">
+                <img src="/project-showroom.jpg" alt="Flux Showroom" className="w-full h-full object-cover" />
+              </div>
               <div className="p-6">
                 <p className="text-sm text-pink-500 font-medium mb-2">Agentic Orchestration &middot; Next.js</p>
                 <h3 className="text-xl font-bold text-slate-950 mb-2">Flux Showroom</h3>
@@ -197,61 +191,77 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Arkitekturen Section */}
-      <section id="arkitektur" className="px-6 py-24 bg-slate-50">
+      {/* Min Tilgang Section */}
+      <section id="min-tilgang" className="px-6 py-24 bg-slate-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-4 text-slate-950">Arkitekturen</h2>
-          <p className="text-slate-600 mb-12 text-lg">
-            Logikken bor p&aring; serveren. Ikke i prompten.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left Column — Text */}
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-widest text-pink-500 mb-4">Min Tilgang</p>
+              <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-6 leading-snug">
+                Den Logiske Bro
+              </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
-                <Database className="w-6 h-6 text-pink-500" />
+              <div className="space-y-6">
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
+                    <Database className="w-6 h-6 text-pink-500" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold mb-1 text-slate-950">Source of Truth</h3>
+                    <p className="text-slate-600">
+                      Forretningsregler versioneret i GitHub. Auditerbare og reproducerbare.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
+                    <Cpu className="w-6 h-6 text-pink-500" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold mb-1 text-slate-950">Logic Bridge</h3>
+                    <p className="text-slate-600">
+                      Agenter henter fakta i realtid. Modellen r&aelig;sonnerer &mdash; den opfinder ikke.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
+                    <LayoutDashboard className="w-6 h-6 text-pink-500" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold mb-1 text-slate-950">Interface</h3>
+                    <p className="text-slate-600">
+                      L&oslash;sningen m&oslash;der brugeren der, hvor arbejdet foreg&aring;r. Teams, Outlook eller web.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-slate-950">Source of Truth</h3>
-              <p className="text-slate-600">
-                Forretningsregler versioneret i GitHub. Auditerbare og reproducerbare.
-              </p>
             </div>
 
-            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
-                <Cpu className="w-6 h-6 text-pink-500" />
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-slate-950">Logic Bridge</h3>
-              <p className="text-slate-600">
-                Agenter henter fakta i realtid. Modellen r&aelig;sonnerer &mdash; den opfinder ikke.
-              </p>
-            </div>
-
-            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
-                <LayoutDashboard className="w-6 h-6 text-pink-500" />
-              </div>
-              <h3 className="text-xl font-bold mb-2 text-slate-950">Interface</h3>
-              <p className="text-slate-600">
-                L&oslash;sningen m&oslash;der brugeren der, hvor arbejdet foreg&aring;r. Teams, Outlook eller web.
-              </p>
+            {/* Right Column — Profile Image */}
+            <div className="flex justify-center md:justify-end">
+              <img
+                src="/jesca-profile.jpg"
+                alt="Jesca — AI Solution Specialist"
+                className="w-full max-w-md rounded-2xl shadow-sm object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Footer CTA */}
-      <section id="kontakt" className="px-6 py-24 bg-slate-50">
+      {/* CTA Banner — Skal vi arbejde sammen? */}
+      <section className="px-6 py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-6 text-slate-950">
-            Klar til at deploye din logik?
+          <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-slate-950">
+            Skal vi arbejde sammen?
           </h2>
-          <p className="text-xl text-slate-600 mb-12">
-            Fra usikker AI til deterministisk forretningsv&aelig;rdi &mdash; lad os bygge den arkitektur,
-            der g&oslash;r dine data til p&aring;lidelige svar.
-          </p>
-          <button className="px-12 py-5 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
-            Start en samtale &rarr;
-          </button>
+          <a href="mailto:hello@flux-adoption.io" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
+            SIG HEJ
+          </a>
         </div>
       </section>
 
@@ -262,7 +272,7 @@ export default function Home() {
             <span className="text-lg font-bold text-slate-950">Flux Adoption</span>
             <div className="flex items-center gap-6">
               <a href="https://www.linkedin.com/in/jesca-martaeng/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
-              <a href="https://github.com/flux-adoption" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>
+              <a href="https://github.com/Cherise1608" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>
               <a href="mailto:hello@flux-adoption.io" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
             </div>
           </div>
