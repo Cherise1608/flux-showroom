@@ -1,5 +1,4 @@
 'use client'
-import { Database, Cpu, LayoutDashboard } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
           <a href="#" className="text-xl font-bold text-slate-950">Flux Adoption</a>
           <div className="hidden md:flex items-center gap-8">
             <a href="#enterprise-impact" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Projekter</a>
-            <a href="#min-tilgang" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Min Tilgang</a>
+            <a href="#indsigter" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Indsigter</a>
             <a href="#about" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Om Mig</a>
             <a href="#kontakt" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">Kontakt</a>
           </div>
@@ -197,47 +196,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Min Tilgang Section */}
-      <section id="min-tilgang" className="px-6 py-24 bg-slate-50">
+      {/* Indsigter Section */}
+      <section id="indsigter" className="px-6 py-24 bg-slate-50">
         <div className="max-w-6xl mx-auto">
-          <p className="text-sm font-semibold uppercase tracking-widest text-pink-500 mb-4">Min Tilgang</p>
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-4 leading-snug">
-            S&aring;dan bygger jeg AI-l&oslash;sninger
-          </h2>
-          <p className="text-slate-600 mb-10 text-lg">
-            Min arkitektur adskiller forretningslogik fra AI-modellen. Resultatet er systemer, der aldrig g&aelig;tter.
-          </p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-pink-500 mb-4">Indsigter</p>
+          <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-4">AI i praksis</h2>
+          <p className="text-slate-600 text-lg mb-12">Analyser af deterministisk AI, adoption og teknisk forretningsudvikling.</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
-                <Database className="w-6 h-6 text-pink-500" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* KORT 1 */}
+            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
+               className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
+              <div className="p-6">
+                <p className="text-sm text-slate-400 mb-3">Kommende indl&aelig;g</p>
+                <h3 className="text-xl font-bold text-slate-950 mb-3">Hvorfor 90% af AI-projekter fejler f&oslash;r f&oslash;rste linje kode</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">De fleste virksomheder starter med teknologien. De burde starte med arbejdsgangen.</p>
+                <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-slate-950">Source of Truth</h3>
-              <p className="text-slate-600">
-                Forretningsregler versioneret i GitHub. Auditerbare og reproducerbare.
-              </p>
-            </div>
+            </a>
 
-            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
-                <Cpu className="w-6 h-6 text-pink-500" />
+            {/* KORT 2 */}
+            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
+               className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
+              <div className="p-6">
+                <p className="text-sm text-slate-400 mb-3">Kommende indl&aelig;g</p>
+                <h3 className="text-xl font-bold text-slate-950 mb-3">Fra 60 til 10 minutter: Anatomien af en AI-agent</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">Erfaringer fra Research Translator om forholdet mellem arkitektur og brugeradoption.</p>
+                <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-slate-950">Logic Bridge</h3>
-              <p className="text-slate-600">
-                Agenter henter fakta i realtid. Modellen r&aelig;sonnerer &mdash; den opfinder ikke.
-              </p>
-            </div>
+            </a>
 
-            <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center mb-4">
-                <LayoutDashboard className="w-6 h-6 text-pink-500" />
+            {/* KORT 3 */}
+            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
+               className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
+              <div className="p-6">
+                <p className="text-sm text-slate-400 mb-3">Kommende indl&aelig;g</p>
+                <h3 className="text-xl font-bold text-slate-950 mb-3">Agentic Orchestration: Showroom bygget p&aring; 40 minutter</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">En guide til ledelse af autonome agenter gennem deterministiske systemer.</p>
+                <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-slate-950">Interface</h3>
-              <p className="text-slate-600">
-                L&oslash;sningen m&oslash;der brugeren der, hvor arbejdet foreg&aring;r. Teams, Outlook eller web.
-              </p>
-            </div>
+            </a>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
+               className="inline-block px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-semibold transition-colors">
+              F&oslash;lg mine indsigter p&aring; Substack
+            </a>
           </div>
         </div>
       </section>
