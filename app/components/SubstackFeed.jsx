@@ -13,7 +13,7 @@ export default function SubstackFeed() {
   const { t } = useLanguage()
 
   useEffect(() => {
-    fetch('/api/substack')
+    fetch('/substack-articles.json')
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) setArticles(data)

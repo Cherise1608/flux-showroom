@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "prebuild": "node scripts/fetch-substack.js",
+    "build": "node scripts/fetch-substack.js && next build",
     "start": "next start",
     "lint": "next lint"
   },
