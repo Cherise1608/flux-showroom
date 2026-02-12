@@ -213,7 +213,6 @@ export default function Home() {
               <a href="mailto:jescacherisevia@gmail.com" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
             </div>
           </div>
-          <p className="text-center text-xs text-slate-500 mb-2">{t('footer.builtWith')}</p>
           <p className="text-center text-xs text-slate-400">{t('footer.copyright')}</p>
         </div>
       </footer>

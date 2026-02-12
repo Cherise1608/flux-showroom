@@ -59,10 +59,9 @@
   },
   "cta": {
     "headline": "Har du en AI-udfordring der skal løses?",
-    "button": "Fortæl mig hvad du bygger →"
+    "button": "Fortæl mig hvad du vil have bygget? →"
   },
   "footer": {
-    "builtWith": "Denne side er bygget med de samme værktøjer jeg bruger til kundeprojekter.",
     "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
   }
 }

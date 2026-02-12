@@ -62,7 +62,6 @@
     "button": "Tell me what you're building →"
   },
   "footer": {
-    "builtWith": "This site is built with the same tools I use for client projects.",
     "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
   }
 }
