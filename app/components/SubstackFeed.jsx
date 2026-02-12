@@ -1,10 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { useLanguage } from '../context/LanguageContext'
 
 export default function SubstackFeed() {
   const [articles, setArticles] = useState([])
   const [loading, setLoading] = useState(true)
+  const { t } = useLanguage()
 
   useEffect(() => {
     fetch('/api/substack')
@@ -37,9 +39,9 @@ export default function SubstackFeed() {
            className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
           <div className="p-6">
             <p className="text-sm text-slate-400 mb-3">Substack</p>
-            <h3 className="text-xl font-bold text-slate-950 mb-3">L&aelig;s mine seneste indsigter</h3>
-            <p className="text-slate-600 text-sm leading-relaxed">Analyser af deterministisk AI, adoption og teknisk forretningsudvikling.</p>
-            <p className="text-pink-500 text-sm font-medium mt-4">G&aring; til Substack &rarr;</p>
+            <h3 className="text-xl font-bold text-slate-950 mb-3">{t('insights.fallbackTitle')}</h3>
+            <p className="text-slate-600 text-sm leading-relaxed">{t('insights.subtitle')}</p>
+            <p className="text-pink-500 text-sm font-medium mt-4">{t('insights.fallbackCta')}</p>
           </div>
         </a>
       </div>
@@ -55,7 +57,7 @@ export default function SubstackFeed() {
             <p className="text-sm text-slate-400 mb-3">{article.date}</p>
             <h3 className="text-xl font-bold text-slate-950 mb-3">{article.title}</h3>
             <p className="text-slate-600 text-sm leading-relaxed">{article.description}</p>
-            <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
+            <p className="text-pink-500 text-sm font-medium mt-4">{t('insights.readOnSubstack')}</p>
           </div>
         </a>
       ))}

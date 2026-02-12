@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Projekte",
+    "insights": "Einblicke",
+    "about": "Über Mich",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Die meisten reden über KI.",
+    "headlineAccent": "Hier wird sie gebaut.",
+    "subheadline": "Governance vom ersten Tag an.",
+    "cta": "Meine Projekte ansehen"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Ausgewählte Projekte von KI-Implementierung bis Geschäftsentwicklung.",
+    "researchTranslator": {
+      "tag": "KI-Agent · Universität Kopenhagen",
+      "title": "Research Translator",
+      "description": "83% Reduktion der Recherchezeit. Automatisierter Workflow für komplexe Forscher-Briefings.",
+      "stat1": "83% Zeitersparnis",
+      "stat2": "102.000 DKK ROI",
+      "cta": "Case Study ansehen →"
+    },
+    "epdm": {
+      "tag": "Geschäftsentwicklung · Lieferkette",
+      "title": "EPDM Specialisten",
+      "description": "Von deutscher Ingenieurwissenschaft zu dänischem Handwerk. Transformation eines komplexen B2B- zu einem skalierbaren D2C-Modell.",
+      "cta": "Seite besuchen →"
+    },
+    "showroom": {
+      "tag": "Agentic Orchestration · Next.js",
+      "title": "Flux Showroom",
+      "description": "Dieses Showroom wurde in unter 60 Minuten von autonomen Agenten-Teams gebaut, getestet und deployed.",
+      "subtext": "Sie sehen es gerade."
+    }
+  },
+  "about": {
+    "label": "Über Mich",
+    "heading": "Die Brücke zwischen Logik und menschlichen Systemen",
+    "paragraph1": "Ich habe nicht in der Tech-Branche angefangen. Ich begann mit Menschen, Prozessen und der Realität, die entsteht, wenn ein neues System in einer Organisation landet und niemand weiß, was damit anzufangen ist. Das hat mich gelehrt: Das Schwierigste an Technologie ist nie die Technologie. Es sind die Menschen, die ihr vertrauen müssen.",
+    "paragraph2": "Als ich den Research Translator bei KU Lighthouse entwickelte, war das Ziel nicht, mit KI zu beeindrucken. Es war, Beratern ihre Zeit zurückzugeben. 60 Minuten wurden zu 10. Nicht weil ich das cleverste Modell gewählt habe, sondern weil ich darauf bestanden habe, dass die Architektur so solide sein muss, dass niemand überprüfen muss, ob die KI falsch liegt.",
+    "paragraph3": "Heute baue ich KI-Agenten. Und das Erste, was ich baue, ist immer dasselbe: Die Grundlage dafür, dass Menschen es tatsächlich nutzen.",
+    "independent": "Ich habe den selbstständigen Weg gewählt. Das gibt mir die Freiheit, das Richtige zu bauen, denn die besten Lösungen entstehen selten innerhalb eines regulären Arbeitszeitrahmens.",
+    "fluxTitle": "Flux Adoption",
+    "fluxText": "Flux Adoption ist meine Praxis. Ich baue, deploye und skaliere KI-Lösungen mit Compliance von Anfang an. Technische Umsetzung. Keine Beratung.",
+    "groundingTitle": "Bodenständigkeit",
+    "groundingText": "Meine ehrenamtliche Arbeit bei Forælder Fonden hält mich geerdet. Technologie handelt von Menschen. Immer.",
+    "techStackLabel": "Tech Stack"
+  },
+  "insights": {
+    "label": "Einblicke",
+    "title": "KI in der Praxis",
+    "subtitle": "Analysen zu deterministischer KI, Adoption und technischer Geschäftsentwicklung.",
+    "followButton": "Meinen Einblicken auf Substack folgen",
+    "readOnSubstack": "Auf Substack lesen →",
+    "fallbackTitle": "Meine neuesten Einblicke lesen",
+    "fallbackCta": "Zu Substack →"
+  },
+  "cta": {
+    "headline": "Haben Sie eine KI-Herausforderung, die gelöst werden muss?",
+    "button": "Erzählen Sie mir, was Sie bauen →"
+  },
+  "footer": {
+    "builtWith": "Diese Seite wurde mit denselben Werkzeugen gebaut, die ich für Kundenprojekte verwende.",
+    "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Projekter",
+    "insights": "Indsigter",
+    "about": "Om Mig",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "De fleste taler om AI.",
+    "headlineAccent": "Her bliver det bygget.",
+    "subheadline": "Governance fra dag 1.",
+    "cta": "Se Mine Projekter"
+  },
+  "projects": {
+    "title": "Projekter",
+    "subtitle": "Udvalgte projekter fra AI-implementering til forretningsudvikling.",
+    "researchTranslator": {
+      "tag": "AI Agent · Københavns Universitet",
+      "title": "Research Translator",
+      "description": "83% reduktion i research-tid. Automatiseret workflow til komplekse forsker-briefings.",
+      "stat1": "83% tidsbesparelse",
+      "stat2": "102.000 kr. ROI",
+      "cta": "Se Case Study →"
+    },
+    "epdm": {
+      "tag": "Forretningsudvikling · Supply Chain",
+      "title": "EPDM Specialisten",
+      "description": "Fra tysk ingeniørvidenskab til dansk håndværk. Transformation af kompleks B2B til en skalerbar D2C-model.",
+      "cta": "Besøg Siden →"
+    },
+    "showroom": {
+      "tag": "Agentic Orchestration · Next.js",
+      "title": "Flux Showroom",
+      "description": "Dette showroom er bygget, testet og deployet via autonome agent-teams på under 60 minutter.",
+      "subtext": "Du kigger på det nu."
+    }
+  },
+  "about": {
+    "label": "Om Mig",
+    "heading": "Broen mellem logik og menneskelige systemer",
+    "paragraph1": "Jeg startede ikke i tech. Jeg startede med mennesker, processer og den virkelighed der opstår når et nyt system lander i en organisation og ingen ved hvad de skal gøre med det. Det lærte mig at det sværeste ved teknologi aldrig er teknologien. Det er de mennesker der skal stole på den.",
+    "paragraph2": "Da jeg byggede Research Translator hos KU Lighthouse, var målet ikke at imponere med AI. Det var at give rådgivere deres tid tilbage. 60 minutter blev til 10. Ikke fordi jeg valgte den smarteste model, men fordi jeg insisterede på at arkitekturen skulle være så solid, at ingen behøvede at tjekke efter om AI'en tog fejl.",
+    "paragraph3": "I dag bygger jeg AI-agenter. Og det første jeg bygger er altid det samme: Grundlaget for at mennesker faktisk bruger det.",
+    "independent": "Jeg valgte det selvstændige spor. Det giver mig friheden til at bygge det rigtige, fordi de bedste løsninger sjældent opstår inden for en 37-timers ramme.",
+    "fluxTitle": "Flux Adoption",
+    "fluxText": "Flux Adoption er min praksis. Jeg bygger, deployer og skalerer AI-løsninger med compliance bagt ind fra starten. Teknisk eksekvering. Ikke rådgivning.",
+    "groundingTitle": "Jordforbindelsen",
+    "groundingText": "Mit frivillige arbejde hos Forælder Fonden holder mig jordforbundet. Teknologi handler om mennesker. Altid.",
+    "techStackLabel": "Tech Stack"
+  },
+  "insights": {
+    "label": "Indsigter",
+    "title": "AI i praksis",
+    "subtitle": "Analyser af deterministisk AI, adoption og teknisk forretningsudvikling.",
+    "followButton": "Følg mine indsigter på Substack",
+    "readOnSubstack": "Læs på Substack →",
+    "fallbackTitle": "Læs mine seneste indsigter",
+    "fallbackCta": "Gå til Substack →"
+  },
+  "cta": {
+    "headline": "Har du en AI-udfordring der skal løses?",
+    "button": "Fortæl mig hvad du bygger →"
+  },
+  "footer": {
+    "builtWith": "Denne side er bygget med de samme værktøjer jeg bruger til kundeprojekter.",
+    "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
+  }
+}

@@ -30,3 +30,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ec4899;
 }
+
+/* Chinese font fallback */
+:lang(zh) {
+  font-family: 'Inter', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}

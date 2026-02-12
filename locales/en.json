@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "insights": "Insights",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Most people talk about AI.",
+    "headlineAccent": "Here it gets built.",
+    "subheadline": "Governance from day 1.",
+    "cta": "See My Projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected projects from AI implementation to business development.",
+    "researchTranslator": {
+      "tag": "AI Agent · University of Copenhagen",
+      "title": "Research Translator",
+      "description": "83% reduction in research time. Automated workflow for complex researcher briefings.",
+      "stat1": "83% time saved",
+      "stat2": "102,000 DKK ROI",
+      "cta": "See Case Study →"
+    },
+    "epdm": {
+      "tag": "Business Development · Supply Chain",
+      "title": "EPDM Specialisten",
+      "description": "From German engineering to Danish craftsmanship. Transforming complex B2B into a scalable D2C model.",
+      "cta": "Visit Site →"
+    },
+    "showroom": {
+      "tag": "Agentic Orchestration · Next.js",
+      "title": "Flux Showroom",
+      "description": "This showroom was built, tested, and deployed via autonomous agent teams in under 60 minutes.",
+      "subtext": "You're looking at it now."
+    }
+  },
+  "about": {
+    "label": "About Me",
+    "heading": "The bridge between logic and human systems",
+    "paragraph1": "I didn't start in tech. I started with people, processes, and the reality that emerges when a new system lands in an organization and nobody knows what to do with it. That taught me the hardest thing about technology is never the technology. It's the people who need to trust it.",
+    "paragraph2": "When I built Research Translator at KU Lighthouse, the goal wasn't to impress with AI. It was to give advisors their time back. 60 minutes became 10. Not because I chose the smartest model, but because I insisted the architecture had to be so solid that nobody needed to check if the AI was wrong.",
+    "paragraph3": "Today I build AI agents. And the first thing I build is always the same: The foundation for people to actually use it.",
+    "independent": "I chose the independent path. It gives me the freedom to build the right thing, because the best solutions rarely emerge within a standard work schedule.",
+    "fluxTitle": "Flux Adoption",
+    "fluxText": "Flux Adoption is my practice. I build, deploy, and scale AI solutions with compliance baked in from the start. Technical execution. Not consulting.",
+    "groundingTitle": "Staying Grounded",
+    "groundingText": "My volunteer work at Forælder Fonden keeps me grounded. Technology is about people. Always.",
+    "techStackLabel": "Tech Stack"
+  },
+  "insights": {
+    "label": "Insights",
+    "title": "AI in practice",
+    "subtitle": "Analysis of deterministic AI, adoption, and technical business development.",
+    "followButton": "Follow my insights on Substack",
+    "readOnSubstack": "Read on Substack →",
+    "fallbackTitle": "Read my latest insights",
+    "fallbackCta": "Go to Substack →"
+  },
+  "cta": {
+    "headline": "Have an AI challenge that needs solving?",
+    "button": "Tell me what you're building →"
+  },
+  "footer": {
+    "builtWith": "This site is built with the same tools I use for client projects.",
+    "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
+  }
+}

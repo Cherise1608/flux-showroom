@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Proyectos",
+    "insights": "Perspectivas",
+    "about": "Sobre Mí",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "La mayoría habla de IA.",
+    "headlineAccent": "Aquí se construye.",
+    "subheadline": "Gobernanza desde el día 1.",
+    "cta": "Ver Mis Proyectos"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Proyectos seleccionados de implementación de IA a desarrollo de negocio.",
+    "researchTranslator": {
+      "tag": "Agente de IA · Universidad de Copenhague",
+      "title": "Research Translator",
+      "description": "83% de reducción en tiempo de investigación. Flujo de trabajo automatizado para briefings complejos de investigadores.",
+      "stat1": "83% ahorro de tiempo",
+      "stat2": "102.000 DKK ROI",
+      "cta": "Ver Case Study →"
+    },
+    "epdm": {
+      "tag": "Desarrollo de Negocio · Cadena de Suministro",
+      "title": "EPDM Specialisten",
+      "description": "De la ingeniería alemana a la artesanía danesa. Transformación de un B2B complejo a un modelo D2C escalable.",
+      "cta": "Visitar Sitio →"
+    },
+    "showroom": {
+      "tag": "Agentic Orchestration · Next.js",
+      "title": "Flux Showroom",
+      "description": "Este showroom fue construido, probado y desplegado por equipos de agentes autónomos en menos de 60 minutos.",
+      "subtext": "Lo estás viendo ahora."
+    }
+  },
+  "about": {
+    "label": "Sobre Mí",
+    "heading": "El puente entre la lógica y los sistemas humanos",
+    "paragraph1": "No empecé en tecnología. Empecé con personas, procesos y la realidad que surge cuando un nuevo sistema llega a una organización y nadie sabe qué hacer con él. Eso me enseñó que lo más difícil de la tecnología nunca es la tecnología. Son las personas que necesitan confiar en ella.",
+    "paragraph2": "Cuando construí Research Translator en KU Lighthouse, el objetivo no era impresionar con IA. Era devolver el tiempo a los asesores. 60 minutos se convirtieron en 10. No porque elegí el modelo más inteligente, sino porque insistí en que la arquitectura fuera tan sólida que nadie necesitara verificar si la IA se equivocaba.",
+    "paragraph3": "Hoy construyo agentes de IA. Y lo primero que construyo siempre es lo mismo: La base para que las personas realmente lo usen.",
+    "independent": "Elegí el camino independiente. Me da la libertad de construir lo correcto, porque las mejores soluciones rara vez surgen dentro de un horario laboral estándar.",
+    "fluxTitle": "Flux Adoption",
+    "fluxText": "Flux Adoption es mi práctica. Construyo, despliego y escalo soluciones de IA con cumplimiento normativo integrado desde el inicio. Ejecución técnica. No consultoría.",
+    "groundingTitle": "Los pies en la tierra",
+    "groundingText": "Mi trabajo voluntario en Forælder Fonden me mantiene con los pies en la tierra. La tecnología trata sobre personas. Siempre.",
+    "techStackLabel": "Tech Stack"
+  },
+  "insights": {
+    "label": "Perspectivas",
+    "title": "IA en la práctica",
+    "subtitle": "Análisis de IA determinista, adopción y desarrollo de negocio técnico.",
+    "followButton": "Sigue mis perspectivas en Substack",
+    "readOnSubstack": "Leer en Substack →",
+    "fallbackTitle": "Lee mis últimas perspectivas",
+    "fallbackCta": "Ir a Substack →"
+  },
+  "cta": {
+    "headline": "¿Tienes un desafío de IA que necesita solución?",
+    "button": "Cuéntame qué estás construyendo →"
+  },
+  "footer": {
+    "builtWith": "Este sitio está construido con las mismas herramientas que uso para proyectos de clientes.",
+    "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
+  }
+}
