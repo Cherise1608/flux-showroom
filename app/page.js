@@ -22,15 +22,12 @@ export default function Home() {
           {/* Left Column */}
           <div>
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-slate-950 mb-6">
-              Jeg er Jesca &mdash;{' '}
-              <span className="text-pink-500">AI Solution Specialist</span>
-              {' '}&amp; Lead Optimering.
+              De fleste taler om AI.{' '}
+              <span className="text-pink-500">Her bliver det bygget.</span>
             </h1>
 
             <p className="text-lg text-slate-600 leading-relaxed mb-8">
-              Jeg forener kompleks teknologi med de mennesker, der skal bruge den.
-              Gennem deterministisk AI-arkitektur skaber jeg l&oslash;sninger, der virker
-              i virkeligheden &ndash; ikke kun i teorien.
+              Governance fra dag 1.
             </p>
 
             <a href="#enterprise-impact" className="inline-block px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-semibold transition-colors">
@@ -137,58 +134,47 @@ export default function Home() {
 
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  Jeg arbejder i krydsfeltet mellem teknologi, drift og menneskelig adf&aelig;rd.
-                  Min tilgang er b&aring;de strategisk og jordn&aelig;r: Jeg r&aring;dgiver, faciliterer og
-                  implementerer l&oslash;sninger med et skarpt blik for b&aring;de organisationen og de
-                  mennesker, der skal f&aring; det til at fungere i hverdagen.
+                  Jeg startede ikke i tech. Jeg startede med mennesker, processer og den
+                  virkelighed der opst&aring;r n&aring;r et nyt system lander i en organisation og ingen
+                  ved hvad de skal g&oslash;re med det. Det l&aelig;rte mig at det sv&aelig;reste ved teknologi
+                  aldrig er teknologien. Det er de mennesker der skal stole p&aring; den.
                 </p>
 
-                <p className="font-semibold text-slate-950">Fra forvaltning til AI-arkitektur</p>
                 <p>
-                  Mit fundament er st&oslash;bt i den danske offentlige sektor &ndash; fra Gentofte til
-                  Fredensborg Kommune. Arbejdet med systemintegration og &oslash;konomistyring l&aelig;rte mig
-                  v&aelig;rdien af teknisk pr&aelig;cision. I den verden skal tallene stemme hver gang, da
-                  fejl koster b&aring;de tid og tillid.
-                </p>
-                <p>
-                  Denne stringens definerer min metode som AI Solution Specialist. Hos KU
-                  Lighthouse implementerede jeg l&oslash;sninger som Research Translator, der
-                  reducerede r&aring;dgivernes manuelle forberedelsestid med 83%. Resultatet blev ikke
-                  skabt af &rsquo;smart&rsquo; teknologi alene, men af en deterministisk arkitektur, der
-                  sikrer, at AI eksekverer p&aring; baggrund af verificerede data fremfor tilf&aelig;ldige g&aelig;t.
+                  Da jeg byggede Research Translator hos KU Lighthouse, var m&aring;let ikke at
+                  imponere med AI. Det var at give r&aring;dgivere deres tid tilbage. 60 minutter
+                  blev til 10. Ikke fordi jeg valgte den smarteste model, men fordi jeg
+                  insisterede p&aring; at arkitekturen skulle v&aelig;re s&aring; solid, at ingen beh&oslash;vede
+                  at tjekke efter om AI&rsquo;en tog fejl.
                 </p>
 
-                <p className="font-semibold text-slate-950">Flux Adoption</p>
                 <p>
-                  Gennem Flux Adoption r&aring;dgiver jeg i dag virksomheder om implementering af
-                  p&aring;lidelig AI-logik. Jeg supplerer den tekniske eksekvering med indsigter fra
-                  kompleksitetsteori og systemt&aelig;nkning. For at implementere teknologi
-                  succesfuldt, skal man f&oslash;rst forst&aring; de menneskelige systemer, den skal indg&aring; i.
+                  I dag bygger jeg AI-agenter. Og det f&oslash;rste jeg bygger er altid det
+                  samme: Grundlaget for at mennesker faktisk bruger det.
                 </p>
 
-                <p className="font-semibold text-slate-950">Jordforbindelsen</p>
                 <p>
-                  Mit frivillige arbejde hos For&aelig;lder Fonden giver mig min jordforbindelse.
-                  Det fungerer som en konstant p&aring;mindelse om, at uanset hvor digitale vi bliver,
-                  s&aring; handler teknologi i sidste ende altid om mennesker.
+                  Jeg valgte det selvst&aelig;ndige spor. Det giver mig friheden til at bygge
+                  det rigtige, fordi de bedste l&oslash;sninger sj&aelig;ldent opst&aring;r inden for en
+                  37-timers ramme.
                 </p>
               </div>
 
               {/* Built With */}
               <div className="mt-10 pt-8 border-t border-slate-200">
-                <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-3">Built With</p>
+                <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-3">Tech Stack</p>
                 <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-500">
+                  <span>Claude Code Agent Teams</span>
+                  <span className="text-slate-300">|</span>
                   <span>Claude Opus 4.6</span>
                   <span className="text-slate-300">|</span>
-                  <span>Gemini</span>
-                  <span className="text-slate-300">|</span>
-                  <span>GitHub Agent HQ</span>
-                  <span className="text-slate-300">|</span>
-                  <span>Cloudflare Workers</span>
+                  <span>Gemini 3</span>
                   <span className="text-slate-300">|</span>
                   <span>Next.js</span>
                   <span className="text-slate-300">|</span>
                   <span>Vercel</span>
+                  <span className="text-slate-300">|</span>
+                  <span>Cloudflare</span>
                 </div>
               </div>
             </div>
@@ -251,10 +237,10 @@ export default function Home() {
       <section id="kontakt" className="px-6 py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-slate-950">
-            Skal vi arbejde sammen?
+            Klar til at g&aring; fra pilot til produktion?
           </h2>
           <a href="mailto:jescacherisevia@gmail.com" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
-            SIG HEJ
+            Book en 20-minutters snak &rarr;
           </a>
         </div>
       </section>
