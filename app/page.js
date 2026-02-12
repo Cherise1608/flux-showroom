@@ -82,7 +82,7 @@ export default function Home() {
                   <span className="text-slate-300">|</span>
                   <span className="text-pink-500 font-bold">{t('projects.researchTranslator.stat2')}</span>
                 </div>
-                <a href="https://cherise1608.github.io/research-translator/" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
+                <a href="/case-study/research-translator" className="inline-block px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-lg hover:bg-pink-50 transition-colors">
                   {t('projects.researchTranslator.cta')}
                 </a>
               </div>
