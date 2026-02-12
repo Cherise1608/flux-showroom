@@ -4,6 +4,7 @@
  */
 'use client'
 
+import Link from 'next/link'
 import SubstackFeed from './components/SubstackFeed'
 import LanguageSwitcher from './components/LanguageSwitcher'
 import { useLanguage } from './context/LanguageContext'
@@ -217,7 +218,11 @@ export default function Home() {
               <a href="mailto:jescacherisevia@gmail.com" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
             </div>
           </div>
-          <p className="text-center text-xs text-slate-400">{t('footer.copyright')}</p>
+          <div className="flex justify-center items-center gap-3">
+            <p className="text-center text-xs text-slate-400">{t('footer.copyright')}</p>
+            <span className="text-slate-300">|</span>
+            <Link href="/terms" className="text-xs text-slate-400 hover:text-pink-500 transition-colors">Terms of Use</Link>
+          </div>
         </div>
       </footer>
     </div>
