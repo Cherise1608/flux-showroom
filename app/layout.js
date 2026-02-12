@@ -1,3 +1,7 @@
+/**
+ * © 2026 Flux Adoption. All rights reserved.
+ * Proprietary and confidential.
+ */
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { LanguageProvider } from './context/LanguageContext'

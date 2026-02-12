@@ -1,3 +1,7 @@
+/**
+ * © 2026 Flux Adoption. All rights reserved.
+ * Proprietary and confidential.
+ */
 'use client'
 
 import Link from 'next/link'
