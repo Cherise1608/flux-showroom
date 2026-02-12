@@ -1,5 +1,7 @@
 'use client'
 
+import SubstackFeed from './components/SubstackFeed'
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
@@ -189,40 +191,7 @@ export default function Home() {
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-950 mb-4">AI i praksis</h2>
           <p className="text-slate-600 text-lg mb-12">Analyser af deterministisk AI, adoption og teknisk forretningsudvikling.</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* KORT 1 */}
-            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
-               className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
-              <div className="p-6">
-                <p className="text-sm text-slate-400 mb-3">Kommende indl&aelig;g</p>
-                <h3 className="text-xl font-bold text-slate-950 mb-3">Hvorfor 90% af AI-projekter fejler f&oslash;r f&oslash;rste linje kode</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">De fleste virksomheder starter med teknologien. De burde starte med arbejdsgangen.</p>
-                <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
-              </div>
-            </a>
-
-            {/* KORT 2 */}
-            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
-               className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
-              <div className="p-6">
-                <p className="text-sm text-slate-400 mb-3">Kommende indl&aelig;g</p>
-                <h3 className="text-xl font-bold text-slate-950 mb-3">Fra 60 til 10 minutter: Anatomien af en AI-agent</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">Erfaringer fra Research Translator om forholdet mellem arkitektur og brugeradoption.</p>
-                <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
-              </div>
-            </a>
-
-            {/* KORT 3 */}
-            <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
-               className="block bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-pink-500 hover:scale-[1.01] transition-all duration-200">
-              <div className="p-6">
-                <p className="text-sm text-slate-400 mb-3">Kommende indl&aelig;g</p>
-                <h3 className="text-xl font-bold text-slate-950 mb-3">Agentic Orchestration: Showroom bygget p&aring; 40 minutter</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">En guide til ledelse af autonome agenter gennem deterministiske systemer.</p>
-                <p className="text-pink-500 text-sm font-medium mt-4">L&aelig;s p&aring; Substack &rarr;</p>
-              </div>
-            </a>
-          </div>
+          <SubstackFeed />
 
           <div className="mt-12 text-center">
             <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
