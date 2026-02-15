@@ -184,9 +184,9 @@ export default function Home() {
       </section>
 
       {/* CTA Banner */}
-      <section id="kontakt" className="px-6 py-20 bg-slate-50">
+      <section id="kontakt" className="px-6 pt-32 pb-24">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl lg:text-3xl font-bold mb-8 text-slate-950">
+          <h2 className="text-2xl lg:text-3xl font-medium mb-8 text-slate-700">
             {t('cta.headline')}
           </h2>
           <a href="mailto:info@fluxai.dk" className="inline-block px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-md text-base font-medium transition-colors">
