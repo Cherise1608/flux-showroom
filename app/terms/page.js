@@ -109,8 +109,8 @@ export default function TermsOfUse() {
           <section className="mt-12 pt-8 border-t border-slate-200">
             <p className="text-slate-600 leading-relaxed">
               If you have any questions about these Terms of Use, please contact us at{' '}
-              <a href="mailto:jescacherisevia@gmail.com" className="text-pink-500 hover:text-pink-600 transition-colors">
-                jescacherisevia@gmail.com
+              <a href="mailto:info@fluxai.dk" className="text-pink-500 hover:text-pink-600 transition-colors">
+                info@fluxai.dk
               </a>.
             </p>
           </section>

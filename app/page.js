@@ -201,7 +201,7 @@ export default function Home() {
           <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-slate-950">
             {t('cta.headline')}
           </h2>
-          <a href="mailto:jescacherisevia@gmail.com" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
+          <a href="mailto:info@fluxai.dk" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
             {t('cta.button')}
           </a>
         </div>
@@ -215,7 +215,7 @@ export default function Home() {
             <div className="flex items-center gap-6">
               <a href="https://www.linkedin.com/in/jmartaeng/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
               <a href="https://github.com/Cherise1608" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>
-              <a href="mailto:jescacherisevia@gmail.com" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
+              <a href="mailto:info@fluxai.dk" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">Email</a>
             </div>
           </div>
           <div className="flex justify-center items-center gap-3">
