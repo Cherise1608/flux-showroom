@@ -61,6 +61,20 @@
     "headline": "准备好稳固您的AI创新了吗？",
     "button": "让我们讨论您的策略 →"
   },
+  "scorecard": {
+    "headline": "您的AI治理有多稳健？",
+    "subtitle": "大多数企业存在自己不知道的漏洞。5分钟内找到您的。",
+    "cat1Title": "访问与数据",
+    "cat1Desc": "谁有权访问什么——您确定吗？",
+    "cat2Title": "可追溯性与合规",
+    "cat2Desc": "您能向监管机构记录您的AI决策吗？",
+    "cat3Title": "运营稳健性",
+    "cat3Desc": "当您的AI在客户关键工作流中产生幻觉时会发生什么？",
+    "cta": "5分钟内测试 →",
+    "ctaNote": "无需登录。无需邮箱。即时结果。",
+    "secondary": "已经准备好接受审计了？",
+    "secondaryLink": "直接联系我 →"
+  },
   "footer": {
     "copyright": "© 2026 Flux AI — 哥本哈根AI解决方案专家。"
   }

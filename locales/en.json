@@ -61,6 +61,20 @@
     "headline": "Ready to stabilize your AI innovation?",
     "button": "Let's discuss your strategy →"
   },
+  "scorecard": {
+    "headline": "How robust is your AI governance?",
+    "subtitle": "Most companies have gaps they don't know about. Find yours in 5 minutes.",
+    "cat1Title": "Access & Data",
+    "cat1Desc": "Who has access to what — and do you know for certain?",
+    "cat2Title": "Traceability & Compliance",
+    "cat2Desc": "Can you document your AI decisions for a regulatory authority?",
+    "cat3Title": "Operational Robustness",
+    "cat3Desc": "What happens when your AI hallucinates in a customer-critical workflow?",
+    "cta": "Test it in 5 minutes →",
+    "ctaNote": "No login. No email. Instant results.",
+    "secondary": "Already ready for an audit?",
+    "secondaryLink": "Contact me directly →"
+  },
   "footer": {
     "copyright": "© 2026 Flux AI — AI Solution Specialist based in Copenhagen."
   }

@@ -61,6 +61,20 @@
     "headline": "Klar til at stabilisere jeres AI-innovation?",
     "button": "Lad os drøfte din strategi →"
   },
+  "scorecard": {
+    "headline": "Hvor robust er din AI-governance?",
+    "subtitle": "De fleste virksomheder har huller de ikke kender. Find dine på 5 minutter.",
+    "cat1Title": "Adgang & Data",
+    "cat1Desc": "Hvem har adgang til hvad — og ved du det med sikkerhed?",
+    "cat2Title": "Sporbarhed & Compliance",
+    "cat2Desc": "Kan du dokumentere dine AI-beslutninger over for en tilsynsmyndighed?",
+    "cat3Title": "Operationel Robusthed",
+    "cat3Desc": "Hvad sker der når din AI hallucinerer i en kundekritisk workflow?",
+    "cta": "Test det på 5 minutter →",
+    "ctaNote": "Ingen login. Ingen email. Resultat med det samme.",
+    "secondary": "Allerede klar til en audit?",
+    "secondaryLink": "Kontakt mig direkte →"
+  },
   "footer": {
     "copyright": "© 2026 Flux AI — AI Solution Specialist based in Copenhagen."
   }

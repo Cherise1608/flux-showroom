@@ -183,15 +183,57 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Banner */}
-      <section id="kontakt" className="px-6 pt-32 pb-24">
+      {/* Scorecard Teaser */}
+      <section id="kontakt" className="bg-[#0A0A0A] text-white py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl lg:text-3xl font-medium mb-8 text-slate-700">
-            {t('cta.headline')}
+
+          <h2 className="text-3xl md:text-4xl font-black mb-4">
+            {t('scorecard.headline')}
           </h2>
-          <a href="mailto:info@fluxai.dk" className="inline-block px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-md text-base font-medium transition-colors">
-            {t('cta.button')}
+          <p className="text-gray-400 text-lg mb-16 max-w-2xl mx-auto">
+            {t('scorecard.subtitle')}
+          </p>
+
+          {/* Three categories */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-[#1A1A2E] border border-gray-800 rounded-xl p-6">
+              <div className="text-[#00D4AA] text-2xl font-black mb-2">01</div>
+              <h3 className="font-bold text-lg mb-2">{t('scorecard.cat1Title')}</h3>
+              <p className="text-gray-500 text-sm">{t('scorecard.cat1Desc')}</p>
+            </div>
+            <div className="bg-[#1A1A2E] border border-gray-800 rounded-xl p-6">
+              <div className="text-[#00D4AA] text-2xl font-black mb-2">02</div>
+              <h3 className="font-bold text-lg mb-2">{t('scorecard.cat2Title')}</h3>
+              <p className="text-gray-500 text-sm">{t('scorecard.cat2Desc')}</p>
+            </div>
+            <div className="bg-[#1A1A2E] border border-gray-800 rounded-xl p-6">
+              <div className="text-[#00D4AA] text-2xl font-black mb-2">03</div>
+              <h3 className="font-bold text-lg mb-2">{t('scorecard.cat3Title')}</h3>
+              <p className="text-gray-500 text-sm">{t('scorecard.cat3Desc')}</p>
+            </div>
+          </div>
+
+          {/* Primary CTA */}
+          <a
+            href="/scorecard"
+            className="inline-block bg-[#00D4AA] text-[#0A0A0A] font-bold text-lg px-10 py-4 rounded-lg hover:opacity-90 transition-opacity mb-4"
+          >
+            {t('scorecard.cta')}
           </a>
+          <p className="text-gray-600 text-sm mb-20">
+            {t('scorecard.ctaNote')}
+          </p>
+
+          {/* Secondary CTA */}
+          <div className="border-t border-gray-800 pt-8">
+            <p className="text-gray-500 text-sm">
+              {t('scorecard.secondary')}{' '}
+              <a href="mailto:info@fluxai.dk" className="text-[#00D4AA] hover:underline">
+                {t('scorecard.secondaryLink')}
+              </a>
+            </p>
+          </div>
+
         </div>
       </section>
 

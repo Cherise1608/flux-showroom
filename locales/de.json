@@ -61,6 +61,20 @@
     "headline": "Bereit, Ihre KI-Innovation zu stabilisieren?",
     "button": "Lassen Sie uns Ihre Strategie besprechen →"
   },
+  "scorecard": {
+    "headline": "Wie robust ist Ihre KI-Governance?",
+    "subtitle": "Die meisten Unternehmen haben Lücken, die sie nicht kennen. Finden Sie Ihre in 5 Minuten.",
+    "cat1Title": "Zugang & Daten",
+    "cat1Desc": "Wer hat Zugang zu was — und wissen Sie das mit Sicherheit?",
+    "cat2Title": "Nachverfolgbarkeit & Compliance",
+    "cat2Desc": "Können Sie Ihre KI-Entscheidungen gegenüber einer Aufsichtsbehörde dokumentieren?",
+    "cat3Title": "Operationelle Robustheit",
+    "cat3Desc": "Was passiert, wenn Ihre KI in einem kundenkritischen Workflow halluziniert?",
+    "cta": "In 5 Minuten testen →",
+    "ctaNote": "Kein Login. Keine E-Mail. Sofortige Ergebnisse.",
+    "secondary": "Bereits bereit für ein Audit?",
+    "secondaryLink": "Kontaktieren Sie mich direkt →"
+  },
   "footer": {
     "copyright": "© 2026 Flux AI — AI Solution Specialist based in Copenhagen."
   }

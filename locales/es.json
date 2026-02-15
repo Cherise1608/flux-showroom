@@ -61,6 +61,20 @@
     "headline": "¿Listo para estabilizar tu innovación en IA?",
     "button": "Hablemos de tu estrategia →"
   },
+  "scorecard": {
+    "headline": "¿Qué tan robusta es tu gobernanza de IA?",
+    "subtitle": "La mayoría de las empresas tienen brechas que desconocen. Encuentra las tuyas en 5 minutos.",
+    "cat1Title": "Acceso y Datos",
+    "cat1Desc": "¿Quién tiene acceso a qué — y lo sabes con certeza?",
+    "cat2Title": "Trazabilidad y Cumplimiento",
+    "cat2Desc": "¿Puedes documentar tus decisiones de IA ante una autoridad reguladora?",
+    "cat3Title": "Robustez Operacional",
+    "cat3Desc": "¿Qué pasa cuando tu IA alucina en un flujo de trabajo crítico para el cliente?",
+    "cta": "Pruébalo en 5 minutos →",
+    "ctaNote": "Sin login. Sin email. Resultados instantáneos.",
+    "secondary": "¿Ya listo para una auditoría?",
+    "secondaryLink": "Contáctame directamente →"
+  },
   "footer": {
     "copyright": "© 2026 Flux AI — AI Solution Specialist based in Copenhagen."
   }
