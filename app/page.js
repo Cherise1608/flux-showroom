@@ -133,11 +133,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start">
             {/* Left Column — Profile Image */}
-            <div>
+            <div className="flex justify-center">
               <img
                 src="/jesca-profile.jpg"
                 alt="Jesca — AI Solution Specialist"
-                className="w-full rounded-xl shadow-sm object-cover"
+                className="w-48 rounded-xl shadow-sm object-cover"
               />
             </div>
 
