@@ -35,7 +35,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="px-6 pt-24 pb-28">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-slate-950 mb-6">
+          <h1 className="text-4xl lg:text-5xl font-bold leading-tight text-slate-950 mb-6">
             {t('hero.headline')}{' '}
             <span className="text-pink-500">{t('hero.headlineAccent')}</span>
           </h1>
@@ -186,7 +186,7 @@ export default function Home() {
       {/* CTA Banner */}
       <section id="kontakt" className="px-6 py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-slate-950">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-slate-950">
             {t('cta.headline')}
           </h2>
           <a href="mailto:info@fluxai.dk" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
