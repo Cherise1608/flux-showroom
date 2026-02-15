@@ -176,7 +176,7 @@ export default function Home() {
 
           <div className="mt-12 text-center">
             <a href="https://jescacherise.substack.com" target="_blank" rel="noopener noreferrer"
-               className="inline-block px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-semibold transition-colors">
+               className="inline-block px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-md text-base font-medium transition-colors">
               {t('insights.followButton')}
             </a>
           </div>
@@ -186,10 +186,10 @@ export default function Home() {
       {/* CTA Banner */}
       <section id="kontakt" className="px-6 py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-slate-950">
+          <h2 className="text-2xl lg:text-3xl font-bold mb-8 text-slate-950">
             {t('cta.headline')}
           </h2>
-          <a href="mailto:info@fluxai.dk" className="inline-block px-10 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-pink-500/20 hover:shadow-pink-500/30">
+          <a href="mailto:info@fluxai.dk" className="inline-block px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-md text-base font-medium transition-colors">
             {t('cta.button')}
           </a>
         </div>
