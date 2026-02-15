@@ -33,32 +33,20 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="px-6 pt-16 pb-24">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          {/* Left Column */}
-          <div>
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-slate-950 mb-6">
-              {t('hero.headline')}{' '}
-              <span className="text-pink-500">{t('hero.headlineAccent')}</span>
-            </h1>
+      <section className="px-6 pt-24 pb-28">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-slate-950 mb-6">
+            {t('hero.headline')}{' '}
+            <span className="text-pink-500">{t('hero.headlineAccent')}</span>
+          </h1>
 
-            <p className="text-lg text-slate-600 leading-relaxed mb-8">
-              {t('hero.subheadline')}
-            </p>
+          <p className="text-lg lg:text-xl text-slate-600 leading-relaxed mb-10">
+            {t('hero.subheadline')}
+          </p>
 
-            <a href="#enterprise-impact" className="inline-block px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-semibold transition-colors">
-              {t('hero.cta')}
-            </a>
-          </div>
-
-          {/* Right Column — Profile Image */}
-          <div className="flex justify-center md:justify-end">
-            <img
-              src="/jesca-profile.jpg"
-              alt="Jesca — AI Solution Specialist"
-              className="w-64 h-64 object-cover rounded-2xl"
-            />
-          </div>
+          <a href="#enterprise-impact" className="inline-block px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white rounded-lg font-semibold transition-colors">
+            {t('hero.cta')}
+          </a>
         </div>
       </section>
 
