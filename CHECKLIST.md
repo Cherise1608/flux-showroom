@@ -42,7 +42,7 @@ npm run dev
 ```bash
 git init
 git add .
-git commit -m "Initial commit: Flux Adoption Showroom"
+git commit -m "Initial commit: Flux AI Showroom"
 
 # Create repository på GitHub først
 git remote add origin https://github.com/YOURUSERNAME/flux-adoption.git
@@ -152,15 +152,15 @@ export default function RootLayout({ children }) {
 Edit `app/layout.js`:
 ```javascript
 export const metadata = {
-  title: 'Flux Adoption - Deterministic AI Architecture',
+  title: 'Flux AI - Deterministic AI Architecture',
   description: 'Logic-as-a-Service. 83% efficiency gains, zero hallucinations, full governance. Transforming uncertain AI into precise business tools.',
   keywords: 'AI Adoption, Deterministic AI, Logic-as-a-Service, AI Architecture, Jesca Martaeng',
   authors: [{ name: 'Jesca Martaeng' }],
   openGraph: {
-    title: 'Flux Adoption - Deterministic AI',
+    title: 'Flux AI - Deterministic AI',
     description: '83% efficiency gains through deterministic AI architecture',
     url: 'https://yoursite.com',
-    siteName: 'Flux Adoption',
+    siteName: 'Flux AI',
     images: [
       {
         url: 'https://yoursite.com/og-image.png',
@@ -173,7 +173,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Flux Adoption - Deterministic AI',
+    title: 'Flux AI - Deterministic AI',
     description: '83% efficiency gains, zero hallucinations',
     images: ['https://yoursite.com/og-image.png'],
   },
@@ -184,7 +184,7 @@ export const metadata = {
 
 1. [ ] Use Canva eller Figma
 2. [ ] Size: 1200x630px
-3. [ ] Include: "Flux Adoption" + "83% Efficiency" stat
+3. [ ] Include: "Flux AI" + "83% Efficiency" stat
 4. [ ] Save as `public/og-image.png`
 5. [ ] Upload til Vercel via git push
 
@@ -219,7 +219,7 @@ If scores are low:
 
 Post template:
 ```
-🚀 Launching Flux Adoption
+🚀 Launching Flux AI
 
 I've built my showroom for deterministic AI architecture.
 
@@ -242,7 +242,7 @@ Update README:
 ```markdown
 ## 🚀 Projects
 
-- [Flux Adoption Showroom](https://your-url) - Deterministic AI Architecture
+- [Flux AI Showroom](https://your-url) - Deterministic AI Architecture
 - [Research Translator](https://github.com/yourusername/research-translator) - 83% time savings for KU Lighthouse
 ```
 

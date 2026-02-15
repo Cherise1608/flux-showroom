@@ -8,7 +8,7 @@ export default function TermsOfUse() {
       {/* Header */}
       <nav className="px-6 py-6 border-b border-slate-200">
         <div className="max-w-3xl mx-auto flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-slate-950">Flux Adoption</Link>
+          <Link href="/" className="text-xl font-bold text-slate-950">Flux AI</Link>
           <Link href="/" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">
             &larr; Back to Home
           </Link>
@@ -27,9 +27,9 @@ export default function TermsOfUse() {
               <span className="text-pink-500">1.</span> Acceptance of Terms
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              By accessing and using the Flux Adoption website and services, you acknowledge that you have read,
+              By accessing and using the Flux AI website and services, you acknowledge that you have read,
               understood, and agree to be bound by these Terms of Use. If you do not agree to these terms, please
-              do not use this website. Flux Adoption is operated by Jesca Cherise Via.
+              do not use this website. Flux AI is operated by Jesca Martaeng.
             </p>
           </section>
 
@@ -40,7 +40,7 @@ export default function TermsOfUse() {
             </h2>
             <p className="text-slate-600 leading-relaxed">
               All content on this website, including but not limited to text, graphics, logos, images, case studies,
-              code samples, and documentation, is the intellectual property of Jesca Cherise Via and Flux Adoption.
+              code samples, and documentation, is the intellectual property of Jesca Martaeng and Flux AI.
               This content is protected by applicable copyright and intellectual property laws.
             </p>
           </section>
@@ -51,7 +51,7 @@ export default function TermsOfUse() {
               <span className="text-pink-500">3.</span> Use License
             </h2>
             <p className="text-slate-600 leading-relaxed mb-3">
-              Permission is granted to temporarily view the materials on the Flux Adoption website for personal,
+              Permission is granted to temporarily view the materials on the Flux AI website for personal,
               non-commercial use only. This license does not include:
             </p>
             <ul className="list-disc list-inside text-slate-600 leading-relaxed space-y-1 ml-4">
@@ -71,10 +71,10 @@ export default function TermsOfUse() {
               <span className="text-pink-500">4.</span> Disclaimer
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              The materials on the Flux Adoption website are provided on an &quot;as is&quot; basis. Flux Adoption makes
+              The materials on the Flux AI website are provided on an &quot;as is&quot; basis. Flux AI makes
               no warranties, expressed or implied, and hereby disclaims all other warranties including, without
               limitation, implied warranties or conditions of merchantability, fitness for a particular purpose,
-              or non-infringement of intellectual property or other violation of rights. Further, Flux Adoption
+              or non-infringement of intellectual property or other violation of rights. Further, Flux AI
               does not warrant or make any representations concerning the accuracy, likely results, or reliability
               of the use of the materials on its website.
             </p>
@@ -86,9 +86,9 @@ export default function TermsOfUse() {
               <span className="text-pink-500">5.</span> Limitations
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              In no event shall Flux Adoption or Jesca Cherise Via be liable for any damages (including, without
+              In no event shall Flux AI or Jesca Martaeng be liable for any damages (including, without
               limitation, damages for loss of data or profit, or due to business interruption) arising out of the
-              use or inability to use the materials on the Flux Adoption website, even if Flux Adoption has been
+              use or inability to use the materials on the Flux AI website, even if Flux AI has been
               notified orally or in writing of the possibility of such damage.
             </p>
           </section>
@@ -120,7 +120,7 @@ export default function TermsOfUse() {
       {/* Footer */}
       <footer className="px-6 py-12 border-t border-slate-200">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs text-slate-400">&copy; 2025 Flux Adoption. All rights reserved.</p>
+          <p className="text-xs text-slate-400">&copy; 2025 Flux AI. All rights reserved.</p>
         </div>
       </footer>
     </div>

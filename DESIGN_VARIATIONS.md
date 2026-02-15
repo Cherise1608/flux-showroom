@@ -1,6 +1,6 @@
 # Design Variations
 
-Alternative farvepaletter til dit Flux Adoption showroom.
+Alternative farvepaletter til dit Flux AI showroom.
 
 ## Current: Professional Pink
 

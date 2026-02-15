@@ -1,5 +1,5 @@
 /**
- * © 2026 Flux Adoption. All rights reserved.
+ * © 2026 Flux AI. All rights reserved.
  * Proprietary and confidential.
  */
 import { Inter } from 'next/font/google'
@@ -10,9 +10,9 @@ import ForensicTracker from './components/ForensicTracker'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Flux Adoption - Deterministic AI for the Agentic Era',
+  title: 'Flux AI - Deterministic AI for the Agentic Era',
   description: 'Logic-as-a-Service. Vi transformerer usikre sprogmodeller til præcise forretningsværktøjer med zero hallucinations og full governance.',
-  keywords: 'AI, Deterministic AI, Logic-as-a-Service, AI Adoption, Flux Adoption',
+  keywords: 'AI, Deterministic AI, Logic-as-a-Service, AI Adoption, Flux AI',
 }
 
 export default function RootLayout({ children }) {

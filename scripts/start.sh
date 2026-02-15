@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Flux Adoption Showroom - Quick Start Script
+# Flux AI Showroom - Quick Start Script
 # This script sets up and runs your showroom in one command
 
-echo "🚀 Flux Adoption Showroom - Quick Start"
+echo "🚀 Flux AI Showroom - Quick Start"
 echo "========================================"
 echo ""
 

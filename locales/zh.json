@@ -42,8 +42,8 @@
     "paragraph2": "当我在KU Lighthouse构建Research Translator时，目标不是用AI来炫技，而是把时间还给顾问。60分钟变成了10分钟。不是因为我选了最聪明的模型，而是因为我坚持架构必须足够稳固，以至于没有人需要去验证AI是否出错。",
     "paragraph3": "今天我构建AI智能体。而我首先构建的始终是同一件事：让人们真正使用它的基础。",
     "independent": "我选择了独立之路。这给了我构建正确事物的自由，因为最好的解决方案很少在常规工作框架内产生。",
-    "fluxTitle": "Flux Adoption",
-    "fluxText": "Flux Adoption是我的业务。我构建、部署和扩展AI解决方案，从一开始就内置合规性。技术执行，不是咨询。",
+    "fluxTitle": "Flux AI",
+    "fluxText": "Flux AI是我的业务。我构建、部署和扩展AI解决方案，从一开始就内置合规性。技术执行，不是咨询。",
     "groundingTitle": "脚踏实地",
     "groundingText": "我在Forælder Fonden的志愿工作让我保持脚踏实地。技术关乎人，始终如此。",
     "techStackLabel": "技术栈"
@@ -62,6 +62,6 @@
     "button": "告诉我你在构建什么 →"
   },
   "footer": {
-    "copyright": "© 2026 Flux Adoption — 哥本哈根AI解决方案专家。"
+    "copyright": "© 2026 Flux AI — 哥本哈根AI解决方案专家。"
   }
 }

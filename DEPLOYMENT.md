@@ -10,7 +10,7 @@ Vercel er den hurtigste måde at deploye din Next.js showroom på.
 # Initialize git (hvis ikke allerede gjort)
 git init
 git add .
-git commit -m "Initial commit: Flux Adoption Showroom"
+git commit -m "Initial commit: Flux AI Showroom"
 
 # Push til GitHub
 git remote add origin https://github.com/yourusername/flux-adoption.git

@@ -1,8 +1,8 @@
 @echo off
-REM Flux Adoption Showroom - Quick Start Script (Windows)
+REM Flux AI Showroom - Quick Start Script (Windows)
 
 echo ================================
-echo Flux Adoption Showroom - Quick Start
+echo Flux AI Showroom - Quick Start
 echo ================================
 echo.
 

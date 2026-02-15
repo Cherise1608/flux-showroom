@@ -1,4 +1,4 @@
-# Project Overview: Flux Adoption Showroom
+# Project Overview: Flux AI Showroom
 
 ## Hvad du har fået
 
@@ -41,7 +41,7 @@ flux-adoption-showroom/
 ## Hvad hver sektion gør
 
 ### 1. Hero Section
-- **Funktion**: Øjeblikkelig impact. "Flux Adoption" + "Deterministic AI"
+- **Funktion**: Øjeblikkelig impact. "Flux AI" + "Deterministic AI"
 - **Strategi**: Kombinerer dit brand med din kerneværdi
 - **Interaktivitet**: 2 CTAs (primær pink, sekundær outline)
 

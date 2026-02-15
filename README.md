@@ -1,6 +1,6 @@
-# Flux Adoption Showroom
+# Flux AI Showroom
 
-Professional showroom for Flux Adoption - demonstrating deterministic AI architecture and Logic-as-a-Service.
+Professional showroom for Flux AI - demonstrating deterministic AI architecture and Logic-as-a-Service.
 
 ## Features
 
@@ -125,7 +125,7 @@ const runCalculator = async () => {
 
 ## Contact
 
-For questions about Flux Adoption or this showroom, reach out via the contact form on the site.
+For questions about Flux AI or this showroom, reach out via the contact form on the site.
 
 ---
 

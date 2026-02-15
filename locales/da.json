@@ -42,8 +42,8 @@
     "paragraph2": "Da jeg byggede Research Translator hos KU Lighthouse, var målet ikke at imponere med AI. Det var at give rådgivere deres tid tilbage. 60 minutter blev til 10. Ikke fordi jeg valgte den smarteste model, men fordi jeg insisterede på at arkitekturen skulle være så solid, at ingen behøvede at tjekke efter om AI'en tog fejl.",
     "paragraph3": "I dag bygger jeg AI-agenter. Og det første jeg bygger er altid det samme: Grundlaget for at mennesker faktisk bruger det.",
     "independent": "Jeg valgte det selvstændige spor. Det giver mig friheden til at bygge det rigtige, fordi de bedste løsninger sjældent opstår inden for en 37-timers ramme.",
-    "fluxTitle": "Flux Adoption",
-    "fluxText": "Flux Adoption er min praksis. Jeg bygger, deployer og skalerer AI-løsninger med compliance bagt ind fra starten. Teknisk eksekvering. Ikke rådgivning.",
+    "fluxTitle": "Flux AI",
+    "fluxText": "Flux AI er min praksis. Jeg bygger, deployer og skalerer AI-løsninger med compliance bagt ind fra starten. Teknisk eksekvering. Ikke rådgivning.",
     "groundingTitle": "Jordforbindelsen",
     "groundingText": "Mit frivillige arbejde hos Forælder Fonden holder mig jordforbundet. Teknologi handler om mennesker. Altid.",
     "techStackLabel": "Tech Stack"
@@ -62,6 +62,6 @@
     "button": "Fortæl mig hvad du vil have bygget? →"
   },
   "footer": {
-    "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
+    "copyright": "© 2026 Flux AI — AI Solution Specialist based in Copenhagen."
   }
 }

@@ -1,5 +1,5 @@
 /**
- * © 2026 Flux Adoption. All rights reserved.
+ * © 2026 Flux AI. All rights reserved.
  * Proprietary and confidential.
  */
 'use client'
@@ -17,7 +17,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="px-6 py-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <a href="#" className="text-xl font-bold text-slate-950">Flux Adoption</a>
+          <a href="#" className="text-xl font-bold text-slate-950">Flux AI</a>
           <div className="hidden md:flex items-center gap-8">
             <a href="#enterprise-impact" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">{t('nav.projects')}</a>
             <a href="#indsigter" className="text-sm text-slate-600 hover:text-pink-500 transition-colors">{t('nav.insights')}</a>
@@ -211,7 +211,7 @@ export default function Home() {
       <footer className="px-6 py-12 border-t border-slate-200">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-4">
-            <span className="text-lg font-bold text-slate-950">Flux Adoption</span>
+            <span className="text-lg font-bold text-slate-950">Flux AI</span>
             <div className="flex items-center gap-6">
               <a href="https://www.linkedin.com/in/jmartaeng/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">LinkedIn</a>
               <a href="https://github.com/Cherise1608" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-pink-500 transition-colors">GitHub</a>

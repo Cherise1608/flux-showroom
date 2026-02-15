@@ -1,4 +1,4 @@
-# 🚀 Flux Adoption Showroom - Quick Start
+# 🚀 Flux AI Showroom - Quick Start
 
 Dit professional pink showroom er klar.
 
@@ -63,7 +63,7 @@ Open http://localhost:3000 ✨
    ```bash
    git init
    git add .
-   git commit -m "Initial: Flux Adoption Showroom"
+   git commit -m "Initial: Flux AI Showroom"
    git remote add origin https://github.com/YOURUSERNAME/flux-adoption.git
    git push -u origin main
    ```

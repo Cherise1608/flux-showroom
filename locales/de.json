@@ -42,8 +42,8 @@
     "paragraph2": "Als ich den Research Translator bei KU Lighthouse entwickelte, war das Ziel nicht, mit KI zu beeindrucken. Es war, Beratern ihre Zeit zurückzugeben. 60 Minuten wurden zu 10. Nicht weil ich das cleverste Modell gewählt habe, sondern weil ich darauf bestanden habe, dass die Architektur so solide sein muss, dass niemand überprüfen muss, ob die KI falsch liegt.",
     "paragraph3": "Heute baue ich KI-Agenten. Und das Erste, was ich baue, ist immer dasselbe: Die Grundlage dafür, dass Menschen es tatsächlich nutzen.",
     "independent": "Ich habe den selbstständigen Weg gewählt. Das gibt mir die Freiheit, das Richtige zu bauen, denn die besten Lösungen entstehen selten innerhalb eines regulären Arbeitszeitrahmens.",
-    "fluxTitle": "Flux Adoption",
-    "fluxText": "Flux Adoption ist meine Praxis. Ich baue, deploye und skaliere KI-Lösungen mit Compliance von Anfang an. Technische Umsetzung. Keine Beratung.",
+    "fluxTitle": "Flux AI",
+    "fluxText": "Flux AI ist meine Praxis. Ich baue, deploye und skaliere KI-Lösungen mit Compliance von Anfang an. Technische Umsetzung. Keine Beratung.",
     "groundingTitle": "Bodenständigkeit",
     "groundingText": "Meine ehrenamtliche Arbeit bei Forælder Fonden hält mich geerdet. Technologie handelt von Menschen. Immer.",
     "techStackLabel": "Tech Stack"
@@ -62,6 +62,6 @@
     "button": "Erzählen Sie mir, was Sie bauen →"
   },
   "footer": {
-    "copyright": "© 2026 Flux Adoption — AI Solution Specialist based in Copenhagen."
+    "copyright": "© 2026 Flux AI — AI Solution Specialist based in Copenhagen."
   }
 }
