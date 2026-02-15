@@ -56,7 +56,7 @@ export default function Home() {
             <img
               src="/jesca-profile.jpg"
               alt="Jesca — AI Solution Specialist"
-              className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-2xl"
+              className="w-64 h-64 object-cover rounded-2xl"
             />
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Home() {
               <img
                 src="/jesca-profile.jpg"
                 alt="Jesca — AI Solution Specialist"
-                className="w-48 rounded-xl shadow-sm object-cover"
+                className="w-80 rounded-xl shadow-sm object-cover"
               />
             </div>
 
